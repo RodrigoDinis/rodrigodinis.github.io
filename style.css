@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
     font-family: "Roboto", sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 :root {
@@ -254,7 +254,7 @@ header {
 }
 
 .main-text h2::after {
-    right: -6rem;
+    opacity: 0;
 }
 
 .main-btn {
