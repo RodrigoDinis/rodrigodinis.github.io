@@ -272,7 +272,8 @@ header {
 .store {
     width: 100%;
     min-height: 30rem;
-    background: url('images/indice.jpeg') center no-repeat;
+    background: url('images/iii.jpeg') center no-repeat;
+    filter: grayscale(100%);
 }
 
 /*Section - Fresh */
