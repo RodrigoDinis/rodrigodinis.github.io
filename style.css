@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
     font-family: "Roboto", sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 :root {
@@ -231,15 +231,13 @@ header {
 
 .main-text h2 {
     text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-right: -5px;
+    letter-spacing: 3px;
     font-size: 2rem;
     line-height: 1;
     position: relative;
 }
 
 .main-text h2::before, .main-text h2::after {
-    content: "";
     width: 5rem;
     height: 3px;
     top: 50%;
@@ -247,14 +245,6 @@ header {
     position: absolute;
     background-color: var(--main-white);
     border-radius: 8px;
-}
-
-.main-text h2::before {
-    left: -6rem;
-}
-
-.main-text h2::after {
-    opacity: 0;
 }
 
 .main-btn {
