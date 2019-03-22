@@ -12,12 +12,15 @@ html {
     scroll-behavior: auto;
 }
 
+.class {
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+}
+
 :root {
-    --main-font-color: #f2b632;
+    --main-font-color: #be935a;
     --main-white: #fff;
     --main-font-dark-gray: #4d4d4d;
     --main-footer-bg-color: #141414;
-    --main-font-family: "Cheddar Jack", cursive;
 }
 
 section {
@@ -58,7 +61,6 @@ a {
 }
 
 .custom-font {
-    font-family: var(--main-font-family);
     color: var(--main-font-color);
     font-size: 6.5rem;
     line-height: 1;
@@ -222,7 +224,6 @@ header {
 }
 
 .main-text h1 {
-    font-family: var(--main-font-family);
     color: var(--main-font-color);
     font-size: 8rem;
     font-weight: 100;
